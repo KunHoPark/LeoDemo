@@ -9,13 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.coroutine.CoroutineActivity"
+            android:theme="@style/CustomActivityTheme" />
+
+        <activity
+            android:name=".ui.databinding.DataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.SimpleDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.AdapterDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.ObservableDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.ListenerDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.TwowayDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
     </application>
+
 
 </manifest>
