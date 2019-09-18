@@ -39,6 +39,13 @@
         <activity
             android:name=".ui.databinding.TwowayDataBindingActivity"
             android:theme="@style/CustomActivityTheme" />
+
+        <activity
+            android:name=".ui.componet.UiComponetActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.componet.SpinnerUiComponetActivity"
+            android:theme="@style/CustomActivityTheme" />
     </application>
 
 

@@ -13,4 +13,7 @@ object AdapterBinding {
 //            else -> textView.text = "네이버 아님"
 //        }
 //    }
+
+
+
 }

@@ -4,6 +4,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.fragment.app.FragmentActivity
 import com.kona.leodemo.ui.MainActivity
+import com.kona.leodemo.ui.componet.SpinnerUiComponetActivity
+import com.kona.leodemo.ui.componet.UiComponetActivity
 import com.kona.leodemo.ui.coroutine.CoroutineActivity
 import com.kona.leodemo.ui.databinding.*
 
@@ -53,6 +55,16 @@ object ActivityUtil {
     }
     fun startTwowayDataBindingActivity(context: Context) {
         Intent(context, TwowayDataBindingActivity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startUiComponetActivity(context: Context) {
+        Intent(context, UiComponetActivity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startSpinnerUiComponetActivity(context: Context) {
+        Intent(context, SpinnerUiComponetActivity::class.java).apply {
             context.startActivity(this)
         }
     }
