@@ -39,6 +39,9 @@
         <activity
             android:name=".ui.databinding.TwowayDataBindingActivity"
             android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.databinding.InverseDataBindingActivity"
+            android:theme="@style/CustomActivityTheme" />
 
         <activity
             android:name=".ui.componet.UiComponetActivity"

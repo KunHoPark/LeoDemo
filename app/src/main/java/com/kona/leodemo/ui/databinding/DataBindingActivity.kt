@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class DataBindingActivity : FragmentActivity() {
 
     internal val tag = this.javaClass.simpleName
-    private val items = listOf("Simple DataBinding", "BindingAdapter", "Observable", "Listener", "Two-way")
+    private val items = listOf("Simple DataBinding", "BindingAdapter", "Observable", "Listener", "Two-way", "Inverse")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,6 +41,7 @@ class DataBindingActivity : FragmentActivity() {
                 2 ->  ActivityUtil.startObservableDataBindingActivity(applicationContext)
                 3 ->  ActivityUtil.startListenerDataBindingActivity(applicationContext)
                 4 ->  ActivityUtil.startTwowayDataBindingActivity(applicationContext)
+                5 ->  ActivityUtil.startInverseDataBindingActivity(applicationContext)
                 else -> { }
             }
         }

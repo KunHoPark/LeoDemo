@@ -58,6 +58,11 @@ object ActivityUtil {
             context.startActivity(this)
         }
     }
+    fun startInverseDataBindingActivity(context: Context) {
+        Intent(context, InverseDataBindingActivity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
     fun startUiComponetActivity(context: Context) {
         Intent(context, UiComponetActivity::class.java).apply {
             context.startActivity(this)
