@@ -21,14 +21,14 @@ object AdapterBinding {
 //        }
 //    }
 
-    @BindingAdapter("android:text")
+    @BindingAdapter("textInverse")
     @JvmStatic
     fun setText(view: TextView, text: String?) {
 //        view.text = text
     }
 
 
-    @InverseBindingAdapter(attribute="android:text", event="textEvent")
+    @InverseBindingAdapter(attribute="textInverse", event="textEvent")
     @JvmStatic
     fun getText(textView: TextView): String {
         return textView.text.toString()

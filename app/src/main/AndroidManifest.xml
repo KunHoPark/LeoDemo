@@ -43,12 +43,31 @@
             android:name=".ui.databinding.InverseDataBindingActivity"
             android:theme="@style/CustomActivityTheme" />
 
+        <!--UI Componet-->
         <activity
             android:name=".ui.componet.UiComponetActivity"
             android:theme="@style/CustomActivityTheme" />
         <activity
             android:name=".ui.componet.SpinnerUiComponetActivity"
             android:theme="@style/CustomActivityTheme" />
+
+        <!--Animation-->
+        <activity
+            android:name=".ui.animation.AnimationMainActivity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.animation.ConstraintSetSample1Activity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.animation.ConstraintSetSample2Activity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.animation.ConstraintSetSample3Activity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.animation.ConstraintSetSample4Activity"
+            android:theme="@style/CustomActivityTheme" />
+
     </application>
 
 

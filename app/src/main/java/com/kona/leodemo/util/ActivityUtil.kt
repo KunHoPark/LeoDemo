@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.fragment.app.FragmentActivity
 import com.kona.leodemo.ui.MainActivity
+import com.kona.leodemo.ui.animation.*
 import com.kona.leodemo.ui.componet.SpinnerUiComponetActivity
 import com.kona.leodemo.ui.componet.UiComponetActivity
 import com.kona.leodemo.ui.coroutine.CoroutineActivity
@@ -70,6 +71,34 @@ object ActivityUtil {
     }
     fun startSpinnerUiComponetActivity(context: Context) {
         Intent(context, SpinnerUiComponetActivity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+
+
+    //Animation
+    fun startAnimationMainActivity(context: Context) {
+        Intent(context, AnimationMainActivity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startConstraintSetSample1Activity(context: Context) {
+        Intent(context, ConstraintSetSample1Activity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startConstraintSetSample2Activity(context: Context) {
+        Intent(context, ConstraintSetSample2Activity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startConstraintSetSample3Activity(context: Context) {
+        Intent(context, ConstraintSetSample3Activity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startConstraintSetSample4Activity(context: Context) {
+        Intent(context, ConstraintSetSample4Activity::class.java).apply {
             context.startActivity(this)
         }
     }
