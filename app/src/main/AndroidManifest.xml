@@ -56,16 +56,19 @@
             android:name=".ui.animation.AnimationMainActivity"
             android:theme="@style/CustomActivityTheme" />
         <activity
-            android:name=".ui.animation.ConstraintSetSample1Activity"
+            android:name=".ui.animation.constraintset.ConstraintSetSample1Activity"
             android:theme="@style/CustomActivityTheme" />
         <activity
-            android:name=".ui.animation.ConstraintSetSample2Activity"
+            android:name=".ui.animation.constraintset.ConstraintSetSample2Activity"
             android:theme="@style/CustomActivityTheme" />
         <activity
-            android:name=".ui.animation.ConstraintSetSample3Activity"
+            android:name=".ui.animation.constraintset.ConstraintSetSample3Activity"
             android:theme="@style/CustomActivityTheme" />
         <activity
-            android:name=".ui.animation.ConstraintSetSample4Activity"
+            android:name=".ui.animation.constraintset.ConstraintSetSample4Activity"
+            android:theme="@style/CustomActivityTheme" />
+        <activity
+            android:name=".ui.animation.motionlayout.MotionLayoutSample1Activity"
             android:theme="@style/CustomActivityTheme" />
 
     </application>

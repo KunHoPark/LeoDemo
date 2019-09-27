@@ -4,7 +4,12 @@ import android.content.Context
 import android.content.Intent
 import androidx.fragment.app.FragmentActivity
 import com.kona.leodemo.ui.MainActivity
-import com.kona.leodemo.ui.animation.*
+import com.kona.leodemo.ui.animation.AnimationMainActivity
+import com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample1Activity
+import com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample2Activity
+import com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample3Activity
+import com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample4Activity
+import com.kona.leodemo.ui.animation.motionlayout.MotionLayoutSample1Activity
 import com.kona.leodemo.ui.componet.SpinnerUiComponetActivity
 import com.kona.leodemo.ui.componet.UiComponetActivity
 import com.kona.leodemo.ui.coroutine.CoroutineActivity
@@ -99,6 +104,11 @@ object ActivityUtil {
     }
     fun startConstraintSetSample4Activity(context: Context) {
         Intent(context, ConstraintSetSample4Activity::class.java).apply {
+            context.startActivity(this)
+        }
+    }
+    fun startMotionLayoutSample1Activity(context: Context) {
+        Intent(context, MotionLayoutSample1Activity::class.java).apply {
             context.startActivity(this)
         }
     }

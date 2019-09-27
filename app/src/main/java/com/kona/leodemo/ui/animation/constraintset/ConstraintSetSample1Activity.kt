@@ -1,4 +1,4 @@
-package com.kona.leodemo.ui.animation
+package com.kona.leodemo.ui.animation.constraintset
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

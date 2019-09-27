@@ -5,7 +5,7 @@
     <data>
         <variable
             name="model"
-            type="com.kona.leodemo.ui.animation.ConstraintSetSample4View" />
+            type="com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample4View" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

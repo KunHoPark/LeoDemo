@@ -3,7 +3,7 @@
     <data>
         <variable
             name="model"
-            type="com.kona.leodemo.ui.animation.ConstraintSetSample4Activity" />
+            type="com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample4Activity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class AnimationMainActivity : FragmentActivity() {
 
     internal val tag = this.javaClass.simpleName
-    private val items = listOf("ConstraintSet Sample1", "ConstraintSet Sample2","ConstraintSet Sample3", "ConstraintSet Sample4")
+    private val items = listOf("ConstraintSet Sample1", "ConstraintSet Sample2","ConstraintSet Sample3", "ConstraintSet Sample4", "MotionLayout Sample1")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +40,7 @@ class AnimationMainActivity : FragmentActivity() {
                 1 -> ActivityUtil.startConstraintSetSample2Activity(applicationContext)
                 2 -> ActivityUtil.startConstraintSetSample3Activity(applicationContext)
                 3 -> ActivityUtil.startConstraintSetSample4Activity(applicationContext)
+                4 -> ActivityUtil.startMotionLayoutSample1Activity(applicationContext)
                 else -> { }
             }
         }

@@ -3,7 +3,7 @@
     <data>
         <variable
             name="model"
-            type="com.kona.leodemo.ui.animation.ConstraintSetSample1Activity" />
+            type="com.kona.leodemo.ui.animation.constraintset.ConstraintSetSample1Activity" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,7 +11,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.animation.ConstraintSetSample1Activity">
+        tools:context=".ui.animation.constraintset.ConstraintSetSample1Activity">
 
         <ImageView
             android:id="@+id/image"
